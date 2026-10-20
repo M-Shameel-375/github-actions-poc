@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello from GitHub Actions!"
+        run: echo "Hello from the dev branch!"
       - name: Show runner
         run: echo "Running on Ubuntu"
