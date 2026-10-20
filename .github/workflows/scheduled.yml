@@ -1,0 +1,17 @@
+
+name: Scheduled Workflow
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show schedule execution
+        run: echo "Scheduled workflow executed successfully!"
+
+      - name: Show current UTC time
+        run: date -u
