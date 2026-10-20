@@ -1,5 +1,5 @@
 
-name: Hello GitHub Actions
+run: echo "Hello from the dev branch!"
 
 on:
   push:
